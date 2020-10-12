@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &291127019423461239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3163828359526732478}
+  - component: {fileID: 966605049591984038}
+  m_Layer: 0
+  m_Name: EnemyDataBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3163828359526732478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291127019423461239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &966605049591984038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291127019423461239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3f2262ed66a764da6da399f8fb405c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statuses:
+  - TypeID: 0
+    originSpeed: 1
+    HitPoint: 100
+    gainGold: 1
+  - TypeID: 1
+    originSpeed: 1
+    HitPoint: 150
+    gainGold: 1
+  - TypeID: 2
+    originSpeed: 1.1
+    HitPoint: 200
+    gainGold: 1
+  - TypeID: 3
+    originSpeed: 1.1
+    HitPoint: 250
+    gainGold: 1
+  - TypeID: 4
+    originSpeed: 1.2
+    HitPoint: 300
+    gainGold: 1
+  - TypeID: 5
+    originSpeed: 1.2
+    HitPoint: 350
+    gainGold: 1
+  - TypeID: 6
+    originSpeed: 1.3
+    HitPoint: 400
+    gainGold: 1
+  - TypeID: 7
+    originSpeed: 1.3
+    HitPoint: 450
+    gainGold: 1
+  - TypeID: 8
+    originSpeed: 1.4
+    HitPoint: 500
+    gainGold: 1
+  - TypeID: 9
+    originSpeed: 1.4
+    HitPoint: 550
+    gainGold: 1
+  - TypeID: 10
+    originSpeed: 1.5
+    HitPoint: 600
+    gainGold: 1
+  - TypeID: 11
+    originSpeed: 1.5
+    HitPoint: 650
+    gainGold: 1
+  - TypeID: 12
+    originSpeed: 1.6
+    HitPoint: 700
+    gainGold: 1
+  - TypeID: 13
+    originSpeed: 1.6
+    HitPoint: 750
+    gainGold: 1
+  - TypeID: 14
+    originSpeed: 1.7
+    HitPoint: 800
+    gainGold: 1
+  - TypeID: 15
+    originSpeed: 1.7
+    HitPoint: 850
+    gainGold: 1
+  - TypeID: 16
+    originSpeed: 1.8
+    HitPoint: 900
+    gainGold: 1
+  - TypeID: 17
+    originSpeed: 1.8
+    HitPoint: 950
+    gainGold: 1
+  - TypeID: 18
+    originSpeed: 1.9
+    HitPoint: 1000
+    gainGold: 1
+  - TypeID: 19
+    originSpeed: 1.9
+    HitPoint: 1050
+    gainGold: 1
+  - TypeID: 20
+    originSpeed: 2
+    HitPoint: 1100
+    gainGold: 1
+  - TypeID: 21
+    originSpeed: 2
+    HitPoint: 1150
+    gainGold: 1
+  - TypeID: 22
+    originSpeed: 2.1
+    HitPoint: 1200
+    gainGold: 1
+  - TypeID: 23
+    originSpeed: 2.1
+    HitPoint: 1250
+    gainGold: 1
+  - TypeID: 24
+    originSpeed: 2.2
+    HitPoint: 1300
+    gainGold: 1
+  - TypeID: 25
+    originSpeed: 2.2
+    HitPoint: 1350
+    gainGold: 1
+  - TypeID: 26
+    originSpeed: 2.3
+    HitPoint: 1400
+    gainGold: 1
+  - TypeID: 27
+    originSpeed: 2.3
+    HitPoint: 1450
+    gainGold: 1
+  - TypeID: 28
+    originSpeed: 2.4
+    HitPoint: 1500
+    gainGold: 1
+  - TypeID: 29
+    originSpeed: 2.4
+    HitPoint: 1550
+    gainGold: 1
+  - TypeID: 30
+    originSpeed: 2.5
+    HitPoint: 1600
+    gainGold: 1
+  - TypeID: 31
+    originSpeed: 2.5
+    HitPoint: 1650
+    gainGold: 1
+  - TypeID: 32
+    originSpeed: 2.6
+    HitPoint: 1700
+    gainGold: 1
+  - TypeID: 33
+    originSpeed: 2.6
+    HitPoint: 1750
+    gainGold: 1
+  - TypeID: 34
+    originSpeed: 2.7
+    HitPoint: 1800
+    gainGold: 1
+  - TypeID: 35
+    originSpeed: 2.7
+    HitPoint: 1850
+    gainGold: 1
+  - TypeID: 36
+    originSpeed: 2.8
+    HitPoint: 1900
+    gainGold: 1
+  - TypeID: 37
+    originSpeed: 2.8
+    HitPoint: 1950
+    gainGold: 1
+  - TypeID: 38
+    originSpeed: 2.9
+    HitPoint: 2000
+    gainGold: 1
+  - TypeID: 39
+    originSpeed: 2.9
+    HitPoint: 2050
+    gainGold: 1
+  - TypeID: 40
+    originSpeed: 3
+    HitPoint: 2100
+    gainGold: 1
+  - TypeID: 41
+    originSpeed: 3
+    HitPoint: 2150
+    gainGold: 1
+  - TypeID: 42
+    originSpeed: 3.1
+    HitPoint: 2200
+    gainGold: 1
+  - TypeID: 43
+    originSpeed: 3.1
+    HitPoint: 2250
+    gainGold: 1
+  - TypeID: 44
+    originSpeed: 3.2
+    HitPoint: 2300
+    gainGold: 1
+  - TypeID: 45
+    originSpeed: 3.2
+    HitPoint: 2400
+    gainGold: 1

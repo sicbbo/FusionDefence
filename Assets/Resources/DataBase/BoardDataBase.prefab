@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &381365107296992323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 163961248948854232}
+  - component: {fileID: 8255774292049904783}
+  m_Layer: 0
+  m_Name: BoardDataBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &163961248948854232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381365107296992323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8255774292049904783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381365107296992323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec8cbb8a88c2394c9c15e905b8da161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initSummonCount: 3
+  waveSummonCount: 1
+  waveDataBase:
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 0
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 1
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 2
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 3
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 4
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 5
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 6
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 7
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 8
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 9
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 10
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 11
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 12
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 13
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 14
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 15
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 16
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 17
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 18
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 19
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 20
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 21
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 22
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 23
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 24
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 25
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 26
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 27
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 28
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 29
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 30
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 31
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 32
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 33
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 34
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 35
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 36
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 37
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 38
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 39
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 40
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 41
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 42
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 43
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 44
+  - WaveReadyTime: 5
+    WaveTime: 15
+    EnemyCreateDelay: 1
+    MaxWaveEnemy: 15
+    EnemyTypeID: 45

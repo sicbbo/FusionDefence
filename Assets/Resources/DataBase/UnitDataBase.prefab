@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6494733046371699479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5094896273707519666}
+  - component: {fileID: 1500446849842440331}
+  m_Layer: 0
+  m_Name: UnitDataBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5094896273707519666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6494733046371699479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.6, z: -12.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1500446849842440331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6494733046371699479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78df0a7170088da4caecedd881d78473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.1
+      value: 10
+      inSlope: -4.736842
+      outSlope: -4.736842
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2
+      value: 1
+      inSlope: -4.736842
+      outSlope: -4.736842
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  statuses:
+  - UnitTypeID: 0
+    UnitGrade: 1
+    UnitName: KARATE
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 2
+  - UnitTypeID: 0
+    UnitGrade: 2
+    UnitName: KARATE
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 2
+  - UnitTypeID: 0
+    UnitGrade: 3
+    UnitName: KARATE
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 2
+  - UnitTypeID: 1
+    UnitGrade: 1
+    UnitName: NINJA
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 2
+  - UnitTypeID: 1
+    UnitGrade: 2
+    UnitName: NINJA
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 2
+  - UnitTypeID: 1
+    UnitGrade: 3
+    UnitName: NINJA
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 4
+  - UnitTypeID: 2
+    UnitGrade: 1
+    UnitName: ARCHER
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 3
+  - UnitTypeID: 2
+    UnitGrade: 2
+    UnitName: ARCHER
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 3
+  - UnitTypeID: 2
+    UnitGrade: 3
+    UnitName: ARCHER
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 3
+  - UnitTypeID: 3
+    UnitGrade: 1
+    UnitName: KNIGHT
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 2
+  - UnitTypeID: 3
+    UnitGrade: 2
+    UnitName: KNIGHT
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 2
+  - UnitTypeID: 3
+    UnitGrade: 3
+    UnitName: KNIGHT
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 2
+  - UnitTypeID: 4
+    UnitGrade: 1
+    UnitName: MAGE
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 3
+  - UnitTypeID: 4
+    UnitGrade: 2
+    UnitName: MAGE
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 3
+  - UnitTypeID: 4
+    UnitGrade: 3
+    UnitName: MAGE
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 3
+  - UnitTypeID: 5
+    UnitGrade: 1
+    UnitName: CROSSBOW
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 3
+  - UnitTypeID: 5
+    UnitGrade: 2
+    UnitName: CROSSBOW
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 3
+  - UnitTypeID: 5
+    UnitGrade: 3
+    UnitName: CROSSBOW
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 3
+  - UnitTypeID: 6
+    UnitGrade: 1
+    UnitName: SPEARMAN
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 3
+  - UnitTypeID: 6
+    UnitGrade: 2
+    UnitName: SPEARMAN
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 3
+  - UnitTypeID: 6
+    UnitGrade: 3
+    UnitName: SPEARMAN
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 3
+  - UnitTypeID: 7
+    UnitGrade: 1
+    UnitName: HERO
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 2
+  - UnitTypeID: 7
+    UnitGrade: 2
+    UnitName: HERO
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 2
+  - UnitTypeID: 7
+    UnitGrade: 3
+    UnitName: HERO
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 2
+  - UnitTypeID: 8
+    UnitGrade: 1
+    UnitName: GOLEM
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 2
+  - UnitTypeID: 8
+    UnitGrade: 2
+    UnitName: GOLEM
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 2
+  - UnitTypeID: 8
+    UnitGrade: 3
+    UnitName: GOLEM
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 2
+  - UnitTypeID: 9
+    UnitGrade: 1
+    UnitName: LICH
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 5
+  - UnitTypeID: 9
+    UnitGrade: 2
+    UnitName: LICH
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 5
+  - UnitTypeID: 9
+    UnitGrade: 3
+    UnitName: LICH
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 5
+  - UnitTypeID: 10
+    UnitGrade: 1
+    UnitName: GUNNER
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 5
+  - UnitTypeID: 10
+    UnitGrade: 2
+    UnitName: GUNNER
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 5
+  - UnitTypeID: 10
+    UnitGrade: 3
+    UnitName: GUNNER
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 5
+  - UnitTypeID: 11
+    UnitGrade: 1
+    UnitName: GRUNT
+    AttackDamage: 100
+    AttackDelay: 2
+    AttackRange: 2
+  - UnitTypeID: 11
+    UnitGrade: 2
+    UnitName: GRUNT
+    AttackDamage: 300
+    AttackDelay: 1.5
+    AttackRange: 2
+  - UnitTypeID: 11
+    UnitGrade: 3
+    UnitName: GRUNT
+    AttackDamage: 900
+    AttackDelay: 1
+    AttackRange: 2
